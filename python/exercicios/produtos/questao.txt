@@ -1,0 +1,11 @@
+1º) Controle de Estoque de Produtos
+Objetivo: Desenvolver um sistema de controle de estoque que proteja os atributos sensíveis
+usando encapsulamento e Modificadores de Acesso.
+Requisitos:
+ Criar uma classe Produto com os atributos __nome, __preco, __quantidade (privados).
+ Criar métodos getters e setters para modificar e acessar os atributos de maneira
+controlada.
+ Criar um método para exibir detalhes do produto e outro para adicionar ou remover
+estoque itens do estoque.
+ Crie o arquivo principal onde você deverá criar instâncias de objetos para testar os
+métodos da classe.

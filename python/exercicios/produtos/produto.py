@@ -4,29 +4,22 @@ class Produto:
         self.__preco = preco
         self.__quantidade = quantidade
 
-    # --- Getters (Propriedades) ---
-
     @property
     def nome(self) -> str:
-        """Getter para o nome."""
         return self.__nome
 
     @property
     def preco(self) -> float:
-        """Getter para o preço."""
         return self.__preco
 
     @property
     def quantidade(self) -> int:
-        """Getter para a quantidade."""
         return self.__quantidade
 
-    # --- Setters (Propriedades) ---
 
     @nome.setter
     def nome(self, novo_nome: str):
-        """Setter para o nome."""
-        if novo_nome.strip():  # Evita nomes vazios
+        if novo_nome.strip():  
             self.__nome = novo_nome
         else:
             print("Erro: O nome não pode ser vazio.")
